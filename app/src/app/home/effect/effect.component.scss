@@ -1,0 +1,38 @@
+.effect {
+  display: block;
+  width: 900px;
+  padding: 16px;
+  max-width: 100%;
+  background: #fff;
+  box-shadow: 2px 1px 4px #ccc;
+  border-radius: 4px;
+  margin: 20px;
+
+  .preview {
+    font-family: 'Source Sans Pro', Poppins, sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 56px;
+    padding: 10px 0;
+
+    span {
+      display: inline-block;
+    }
+  }
+
+  .code {
+    display: block;
+    white-space: pre-line;
+    background-color: rgba(0, 0, 0, 0.85);
+    padding: 10px;
+    color: #f0f0f0;
+    text-shadow: #000 0 1px 0;
+    font-family: "Consolas", "Courier New", "Courier";
+    font-size: 1.45em;
+    line-height: 1.2em;
+    border-radius: 4px;
+    box-shadow: inset 0 0 7px #aaa;
+    font-weight: 500;
+    text-align: left;
+  }
+}

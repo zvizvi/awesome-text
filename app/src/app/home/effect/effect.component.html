@@ -1,0 +1,9 @@
+<div class="effect" [style.background]="effect.background+'' || ''">
+  <div class="effect-inner">
+    <div class="name">Effect Name: {{effect.name}}</div>
+    <div class="preview" [style]="getStyle(effect.code)">{{effect.title || effect.name || 'This is a font effect!'}}</div>
+    <div>
+      <span class="code">{{effect.code}}</span>
+    </div>
+  </div>
+</div>
